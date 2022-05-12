@@ -16,11 +16,11 @@ Dr. Gilberto Flores
 * data is from this [published paper](https://doi.org/10.1016/j.jand.2019.07.024)
 
    
-### [Final Project](https://github.com/Biol551-CSUN/Hunter/tree/main/finalproject)  
+### [Final Project](https://github.com/Biol551-CSUN/FinalProjectHunter)  
    _This is my Final Project for the Spring 2022 semester_  
- >  [Data](https://github.com/Biol551-CSUN/Hunter/tree/main/finalproject/data)  
-   [Scripts](https://github.com/Biol551-CSUN/Hunter/tree/main/finalproject/scripts)  
-   [Output](https://github.com/Biol551-CSUN/Hunter/tree/main/finalproject/output)  
+ >  [Data](https://github.com/Biol551-CSUN/FinalProjectHunter/tree/main/data)  
+   [Scripts](https://github.com/Biol551-CSUN/FinalProjectHunter/tree/main/scripts)  
+   [Output](https://github.com/Biol551-CSUN/FinalProjectHunter/tree/main/output)  
    
 
 
