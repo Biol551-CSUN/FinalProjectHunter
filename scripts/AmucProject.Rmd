@@ -339,18 +339,18 @@ ggplot(meatlong, # data used
        title = "Age distribution of test subjects when weaned")
  
 ggplot(allquest, aes(x = age_years, fill = presence, color = presence))+
-  geom_dotplot(alpha = 0.6, binwidth = .42)+
+  geom_dotplot(alpha = 0.6, binwidth = .42)+ # changing transparency and size
   labs(x = "years in age",
        y = "count",
        title = "Age distribution of test subjects")
 
 ggplot(allquest, aes(x = str_wrap(ethnicity, width = 35), fill = presence))+
-  geom_dotplot(alpha = 0.5,binwidth = .45)+
-  labs(x = "Ethnicity",
+  geom_dotplot(alpha = 0.5,binwidth = .45)+ # changing transparency and size
+  labs(x = "Ethnicity", # creates labels
        y = "Count",
        title = "Ethnicity distribution of test subjects")+
-  coord_flip()+
-  theme(legend.position = c(0.8,0.2))
+  coord_flip()+ # flips the coordinates
+  theme(legend.position = c(0.8,0.2)) # places the legend on top of the plot
 
 ggplot(allquest, mapping = aes(x= presence, y = max_income, fill = presence))+
    geom_violin()+
